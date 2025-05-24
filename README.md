@@ -48,3 +48,11 @@ A Flask-based route-finding application that calculates and visualizes the optim
 5. Open your browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000) to use the app.
 
 
+## Usage
+
+1. Enter the source and destination locations.
+2. Select the mode of transportation: walking, biking, driving, or bus.
+3. Click "Submit" to view the optimal route, travel distance, and estimated time.
+
+
+
