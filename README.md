@@ -19,3 +19,32 @@ A Flask-based route-finding application that calculates and visualizes the optim
 │ └── style.css # Optional CSS styles
 └── README.md # Project documentation
 
+
+
+---
+
+### ⚙️ 5. **Setup and Installation**
+
+```markdown
+## Setup and Installation
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/yourusername/route-finding-web-app.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd route-finding-web-app
+    ```
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Run the Flask application:
+    ```bash
+    python app.py
+    ```
+
+5. Open your browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000) to use the app.
+
+
