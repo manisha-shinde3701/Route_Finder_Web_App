@@ -16,7 +16,7 @@ A Flask-based route-finding application that calculates and visualizes the optim
 
 ---
 
-### ⚙️ 5. Setup and Installation
+## Setup and Installation
 
 ```markdown
 ## Setup and Installation
@@ -39,6 +39,26 @@ A Flask-based route-finding application that calculates and visualizes the optim
     ```
 
 5. Open your browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000) to use the app.
+```
+
+## Example Code
+
+```python
+from flask import Flask, request, jsonify
+from geopy.geocoders import Nominatim
+import osmnx as ox
+import networkx as nx
+import folium
+
+app = Flask(__name__)
+geolocator = Nominatim(user_agent="route_finder_app")
+
+@app.route('/get-route', methods=['POST'])
+def get_route():
+    # Fetch source, destination, and mode from request
+    # Compute route, time, and distance
+    # Generate map with Folium
+    pass
 ```
 
 ## Usage
