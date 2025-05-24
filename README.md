@@ -9,3 +9,13 @@ A Flask-based route-finding application that calculates and visualizes the optim
 - **Interactive Map Visualization**: Visualize the route on an interactive map.
 - **Travel Distance and Time Calculation**: Get real-time travel distance and estimated time based on selected transport mode.
 
+## Project Structure
+
+.
+├── app.py # Main Flask app
+├── templates/
+│ └── index.html # Frontend HTML template
+├── static/
+│ └── style.css # Optional CSS styles
+└── README.md # Project documentation
+
