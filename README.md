@@ -55,4 +55,14 @@ A Flask-based route-finding application that calculates and visualizes the optim
 3. Click "Submit" to view the optimal route, travel distance, and estimated time.
 
 
+## Technologies Used
+
+- **Flask**: Backend framework for handling HTTP requests
+- **Geopy**: For geolocation lookup of addresses
+- **OSMNX**: For accessing OpenStreetMap data and building graphs
+- **NetworkX**: For shortest path algorithms
+- **Folium**: For interactive map visualizations
+
+
+
 
