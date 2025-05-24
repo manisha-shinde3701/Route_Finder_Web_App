@@ -11,19 +11,12 @@ A Flask-based route-finding application that calculates and visualizes the optim
 
 ## Project Structure
 
-.
-├── app.py # Main Flask app
-├── templates/
-│ └── index.html # Frontend HTML template
-├── static/
-│ └── style.css # Optional CSS styles
-└── README.md # Project documentation
-
+![Screenshot 2025-05-24 095314](https://github.com/user-attachments/assets/149dbb6d-4182-4546-8c00-061ce20bfa5b)
 
 
 ---
 
-### ⚙️ 5. **Setup and Installation**
+### ⚙️ 5. Setup and Installation
 
 ```markdown
 ## Setup and Installation
